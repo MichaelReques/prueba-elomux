@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "MichaelReques",
+    "documento": "12345678",
+    "correo": "michael@test.com",
+    "telefono": "999111222",
+    "estado": "activo",
+    "fechaCreacion": "2024-01-15",
+    "observaciones": "Sin observaciones"
+  },
+  {
+    "id": 2,
+    "nombre": "Grecia Arai",
+    "documento": "12345678",
+    "correo": "grecia@test.com",
+    "telefono": "999111222",
+    "estado": "pendiente",
+    "fechaCreacion": "2024-02-15",
+    "observaciones": "Sin observaciones"
+  },
+  {
+    "id": 3,
+    "nombre": "Piero Pablo",
+    "documento": "12345678",
+    "correo": "piero@test.com",
+    "telefono": "999111222",
+    "estado": "inactivo",
+    "fechaCreacion": "2024-03-15",
+    "observaciones": "Sin observaciones"
+  },
+  {
+    "id": 4,
+    "nombre": "Gerardo Uchi",
+    "documento": "12345678",
+    "correo": "gerardo@test.com",
+    "telefono": "999111222",
+    "estado": "activo",
+    "fechaCreacion": "2024-04-15",
+    "observaciones": "Sin observaciones"
+  }
+]
