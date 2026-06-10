@@ -2,35 +2,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Ejercicio 1 - Formulario De Registro De Contacto
+Crear un formulario con nombre, documento, correo, teléfono y estado. Validar campos obligatorios, formato de correo y longitud mínima del documento.
+# Ejercicio 2 - Tabla De Registros Con Filtros Locales
+Mostrar una lista fija de registros en una tabla. Agregar búsqueda por nombre/código y filtro por estado: activo, pendiente e inactivo.
+# Ejercicio 3 - Vista Detalle De Un Registro
+Al hacer clic en una fila de la tabla, mostrar una pantalla o panel con el detalle completo del registro seleccionado, incluyendo fechas, contacto y observaciones.
+# Ejercicio 4 - Consumo De Endpoint Mockeado Para Login
+Crear un servicio authService que simule el consumo de un endpoint /api/auth/login. Debe validar usuario y contraseña usando un archivo mock local y devolver un token falso junto con los datos del usuario.
+# Ejercicio 5 - Listado Desde Mock De API
+Crear una función getRecords() que consuma datos desde un mock JSON simulando un endpoint /api/records. La pantalla debe mostrar loading, error y estado vacío.
+# Ejercicio 6 - Crear Registro Con Mock De API
+Implementar una función createRecord(data) que simule un POST /api/records. Debe validar duplicados por correo o documento usando datos mock y devolver errores parecidos a una API real.
